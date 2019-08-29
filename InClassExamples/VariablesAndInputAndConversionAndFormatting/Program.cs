@@ -17,10 +17,12 @@ namespace VariablesAndInputAndConversionAndFormatting
     {
         static void Main(string[] args)
         {
-            string name;
-            string salesTaxAsString;
-            string netTotalAsString;
-            double salesTax, netTotal, totalAmount;
+            // Declare variables (reserving memory so that we have places to store our values)
+            const double cSalesTax = 0.086;//Creates a constant with the value of 8.6% and keeps it from changing.
+            double salesTax;//Can declare variables one at a time
+            double netTotal;
+            double totalAmount;
+            string name, salesTaxAsString, netTotalAsString; // or you can declare variables with the same datatype all on one line
 
             // Get input from the user
             Console.WriteLine("Please enter your name. >>");//Write to the console asking the user for their name
@@ -41,9 +43,13 @@ namespace VariablesAndInputAndConversionAndFormatting
 
             string sentence = name + " with a sales tax of " + salesTax.ToString("P") +
                               " you will pay " + taxTotal.ToString("C2") +
-                              " in tax making your grand total to be " + totalAmount.ToString("C");
+                              " in tax making your grand total to be " + totalAmount.ToString("C"); //Concatenate a bunch of strings together into a single one
             // Output
-            Console.WriteLine(sentence);
+            Console.WriteLine(sentence); //output our string to the user
+            /*Can write a single statement to concatenate and output in one step
+             * Console.WriteLine(name + " with a sales tax of " + salesTax.ToString("P") +
+                              " you will pay " + taxTotal.ToString("C2") +
+                              " in tax making your grand total to be " + totalAmount.ToString("C"));*/
             Console.ReadKey();//Stopping point so the application doesn't close
         }
     }
