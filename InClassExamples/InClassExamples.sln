@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesAndInputAndConversionAndFormatting", "VariablesAndInputAndConversionAndFormatting\VariablesAndInputAndConversionAndFormatting.csproj", "{FE112C92-1B94-46A0-BC3C-CADCCB9D342A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalExpressions", "ConditionalExpressions\ConditionalExpressions.csproj", "{E36BFA88-2E99-4897-BA12-7016CE525ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalExpressions", "ConditionalExpressions\ConditionalExpressions.csproj", "{E36BFA88-2E99-4897-BA12-7016CE525ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExamples", "LoopExamples\LoopExamples.csproj", "{62C77276-848E-46AE-87C9-9A2A76B9713E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E36BFA88-2E99-4897-BA12-7016CE525ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E36BFA88-2E99-4897-BA12-7016CE525ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E36BFA88-2E99-4897-BA12-7016CE525ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C77276-848E-46AE-87C9-9A2A76B9713E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C77276-848E-46AE-87C9-9A2A76B9713E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C77276-848E-46AE-87C9-9A2A76B9713E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C77276-848E-46AE-87C9-9A2A76B9713E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
