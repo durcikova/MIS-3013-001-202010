@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesAndInputAndConversionAndFormatting", "VariablesAndInputAndConversionAndFormatting\VariablesAndInputAndConversionAndFormatting.csproj", "{FE112C92-1B94-46A0-BC3C-CADCCB9D342A}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopExamples", "LoopExamples\LoopExamples.csproj", "{62C77276-848E-46AE-87C9-9A2A76B9713E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckingInput", "CheckingInput\CheckingInput.csproj", "{913A451B-1D0E-4CBC-B070-D5D332CA7FC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWAdam", "TestWAdam\TestWAdam.csproj", "{A51110C8-801A-4CD8-AB47-956AE2313015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTest", "FizzBuzzTest\FizzBuzzTest.csproj", "{7695934D-711A-4EC2-B552-E6F164FC6BEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{913A451B-1D0E-4CBC-B070-D5D332CA7FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913A451B-1D0E-4CBC-B070-D5D332CA7FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913A451B-1D0E-4CBC-B070-D5D332CA7FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51110C8-801A-4CD8-AB47-956AE2313015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51110C8-801A-4CD8-AB47-956AE2313015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51110C8-801A-4CD8-AB47-956AE2313015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51110C8-801A-4CD8-AB47-956AE2313015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7695934D-711A-4EC2-B552-E6F164FC6BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7695934D-711A-4EC2-B552-E6F164FC6BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7695934D-711A-4EC2-B552-E6F164FC6BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7695934D-711A-4EC2-B552-E6F164FC6BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
